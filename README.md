@@ -1,2 +1,2 @@
 # cofarmer-react
-A Front-end React based application or the CoFarmer Project
+A Front-end React based application for the CoFarmer Project
