@@ -12,7 +12,7 @@ In order to start this application as a development environment, you will need t
 ```
 REACT_APP_SCHEME=http://
 REACT_APP_GATEWAY_HOST=localhost:8000/api
-REACT_APP_HOST=localhost:3333
+REACT_APP_HOST=localhost:3000
 ```
 - Sync the packages: npm i
 - Execute the command to fix the issue.
