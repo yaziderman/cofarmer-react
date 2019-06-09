@@ -22,7 +22,7 @@ npm i
 ```
 ./fix_library.bat
 ```
-- Run the application: 
+- Start the application: 
 ```
 npm start
 ```
