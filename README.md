@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In order to start this application as a development environment, you will need to follow the steps:
 - clone the repository.
-- create .env file under the root if not available, and make sure the following parameters are set as required:
+- Make sure thr file: .env is available under the root, and make sure the following parameters are set as required:
 ```
 REACT_APP_SCHEME=http://
 REACT_APP_GATEWAY_HOST=localhost:8000/api
@@ -18,7 +18,10 @@ REACT_APP_HOST=localhost:3000
 ```
 npm i
 ```
-- Execute the command to fix the issue.
+- Execute the command to fix the issue, applicable for Windows, for Linux or any other operating system, please translate the two instructions or eecute them manually.
+```
+./fix_library.bat
+```
 - Run the application: 
 ```
 npm start
