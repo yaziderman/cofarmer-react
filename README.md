@@ -18,7 +18,7 @@ REACT_APP_HOST=localhost:3000
 ```
 npm i
 ```
-- Execute the command to fix the issue, applicable for Windows, for Linux or any other operating system, please translate the two instructions or eecute them manually.
+- Execute the command to fix an issue with the react=popconfirm plugin, applicable for Windows. For Linux or any other operating system, please translate the two instructions or eecute them manually.
 ```
 ./fix_library.bat
 ```
