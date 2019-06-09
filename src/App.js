@@ -5,14 +5,10 @@ import { Provider } from 'react-redux';
 import store from './store';
 import restoreAuth  from './utils/restoreAuth';
 import Approuter from './utils/Approuter';
-import $ from 'jquery';
-// import MainRouter from './utils/MainRouter';
 import Navbar  from './components/navbar/Navbar';
-import { ToastContainer, toast } from 'react-toastify';
-import PublicHomePage from './components/homepage/PublicHomepage';
+import { ToastContainer } from 'react-toastify';
 import 'react-overlay-loader/styles.css';
 import ReactGA from 'react-ga';
-import Helpers from './shared/custom';
 ReactGA.pageview(window.location.pathname + window.location.search);
 require('dotenv').config()
 

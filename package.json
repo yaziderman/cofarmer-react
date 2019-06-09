@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tinymce/tinymce-react": "^3.1.1",
     "axios": "^0.18.0",
     "base-64": "^0.1.0",
     "bootstrap": "^4.2.1",
     "classnames": "^2.2.6",
-    "d3": "^5.9.2",
     "deep-equal": "^1.0.1",
     "dotenv": "^7.0.0",
     "font-awesome": "^4.7.0",
@@ -27,12 +25,9 @@
     "react-bootstrap-modal": "^4.2.0",
     "react-bootstrap-sweetalert": "^4.4.1",
     "react-bootstrap-typeahead": "^3.3.5",
-    "react-d3-graph": "^2.0.1",
-    "react-d3-library": "^1.1.8",
     "react-datepicker": "^2.1.0",
     "react-dom": "^16.8.1",
     "react-draggable": "^3.1.1",
-    "react-facebook": "^6.0.15",
     "react-ga": "^2.5.7",
     "react-infinite-scroll-component": "^4.5.0",
     "react-infinite-scroller": "^1.2.4",
@@ -46,7 +41,6 @@
     "react-paginate": "^6.2.1",
     "react-phone-number": "^1.3.1",
     "react-popconfirm": "^0.1.1",
-    "react-read-more-less": "^0.1.6",
     "react-recaptcha": "^2.3.10",
     "react-redux": "^6.0.0",
     "react-responsive-carousel": "^3.1.47",
@@ -79,7 +73,7 @@
     "utf8": "^3.0.0"
   },
   "scripts": {
-    "start": "react-app-env start --env-file=development.env",
+    "start": "react-app-env start",
     "start:staging": "react-app-env start --env-file=staging.env",
     "start:production": "react-app-env start --env-file=production.env",
     "build": "react-app-env build",
@@ -94,7 +88,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "description": "For admin panel of plus",
+  "description": "A Front-end React based application for the CoFarmer Project",
   "main": "index.js",
   "devDependencies": {
     "datatables.net": "^1.10.19",
@@ -111,6 +105,5 @@
   "bugs": {
     "url": "https://github.com/algorythma/site-name/issues"
   },
-  "homepage": "http://localhost:6000/",
-  "proxy": "https://cofarmer.com"
+  "homepage": "http://localhost:3000/"
 }
