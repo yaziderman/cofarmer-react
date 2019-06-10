@@ -18,6 +18,8 @@ REACT_APP_HOST=localhost:3000
 ```
 npm i
 ```
+*If you don't have NodeJS installed, please refer to the link: https://nodejs.org/en/download/
+
 - Execute the command to fix an issue with the react=popconfirm plugin, applicable for Windows. For Linux or any other operating system, please translate the two instructions or execute them manually.
 ```
 ./fix_library.bat
