@@ -28,3 +28,5 @@ npm i
 ```
 npm start
 ```
+
+In order to Login, you need to create a new user firstly, You can refer to Swagger interface aquired by the reposiotory: https://github.com/yaziderman/cofarmer to do so.
